@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Change to the parent directory
+
+cd ..
+
+# Copy all HTML files that don't exist or are newer
+
+cp -u *.html $(pwd)/
+
